@@ -18,10 +18,10 @@ class _CurrencyConverterMaterialPageeState
     extends State<CurrencyConverterMaterialPage> {
   double iNR = 0;
   final TextEditingController textEditingController = TextEditingController();
-  
+
   @override
   void dispose() {
-    textEditingController.dispose(); 
+    textEditingController.dispose();
     super.dispose();
   }
 
@@ -95,7 +95,7 @@ class _CurrencyConverterMaterialPageeState
               ElevatedButton(
                 onPressed: () {
                   setState(() {
-                    iNR = 81 * double.parse(textEditingController.text);
+                    iNR = 83.38105 * double.parse(textEditingController.text);
                   });
                 },
                 style: ElevatedButton.styleFrom(
